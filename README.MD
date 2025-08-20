@@ -34,3 +34,19 @@ pip freeze > requirements.txt
 Later, any dev can run:
 
 pip install -r requirements.txt
+
+# Get an API key
+
+Go to https://platform.openai.com/
+.
+
+Sign in (or create an account).
+
+Go to Dashboard → API keys.
+
+Click “Create new secret key” → copy it.
+It will look like:
+
+set OPENAI_API_KEY=sk-abc123XYZ...
+
+echo %OPENAI_API_KEY% 

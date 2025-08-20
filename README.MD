@@ -19,14 +19,14 @@ macOS/Linux:
 
 source venv/bin/activate
 
-Install Playwright in that environment:
+# Install Playwright in that environment:
 
 pip install playwright
 playwright install
 
 ✅ Now playwright is only tied to this specific project.
 
-🎁 Bonus: Save Dependencies
+Bonus: Save Dependencies
 To make your project portable and patent-ready, save all packages:
 
 pip freeze > requirements.txt
@@ -49,4 +49,4 @@ It will look like:
 
 set OPENAI_API_KEY=sk-abc123XYZ...
 
-echo %OPENAI_API_KEY% 
+echo %OPENAI_API_KEY%
